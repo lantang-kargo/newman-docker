@@ -6,7 +6,7 @@ git \
 awscli \
 wget \
 curl \
-pip3
+pip
 
 ENV NODE_PATH /usr/local/lib/node_modules
 
