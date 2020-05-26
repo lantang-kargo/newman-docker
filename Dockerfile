@@ -5,7 +5,8 @@ vim \
 git \
 awscli \
 wget \
-curl
+curl \
+pip3
 
 ENV NODE_PATH /usr/local/lib/node_modules
 
