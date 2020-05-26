@@ -14,5 +14,7 @@ npm install -g newman-reporter-junitxray && \
 npm install -g @reportportal/newman-reporter-reportportal && \
 npm install -g newman-reporter-json-summary
 
+RUN pip3 install atlassian-python-api
+
 ENTRYPOINT ["newman"]
 CMD ["--help"]
